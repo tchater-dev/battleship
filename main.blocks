@@ -1,0 +1,35 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="2sGpB;B.h3O+7*6I8Hhm">mySprite</variable><variable id="rd2K$gWu?7yI2(J3s^At">Landing craft</variable><variable type="KIND_SpriteKind" id="6=7J[lW~z7l5vJ(2v[J/">Player</variable><variable type="KIND_SpriteKind" id="R9tacY0{g:yTOc/,D+p`">Projectile</variable><variable type="KIND_SpriteKind" id="BfUc=4lU}|iwF`=pp$H?">Food</variable><variable type="KIND_SpriteKind" id="^qZWTyw?S(vV,;$8m[]D">Enemy</variable><variable type="KIND_SpriteKind" id="Q!DdWgDe$Z51GIYdim%$">Friendly</variable></variables><block type="pxt-on-start" id="KwG!{Z6||q{#oww1}{H-" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="c,4vLDIH5^(-m%y6)==."><field name="VAR" id="2sGpB;B.h3O+7*6I8Hhm">mySprite</field><value name="VALUE"><shadow type="math_number" id="@_G{jIi8q*K+Go29~?kT"><field name="NUM">0</field></shadow><block type="spritescreate" id="9uRaxhLbQNAk-FHLsS=@"><value name="img"><shadow type="screen_image_picker" id="_Pgws-;Gecn2duYq4AKi"><field name="img">img`
+1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 
+2 . . . . . . . . . . . . . . 1 
+1 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 1 
+1 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 1 
+1 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 1 
+1 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 1 
+1 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 1 
+1 . . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . . 1 
+1 . . . . . . . . . . . . . . 2 
+2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="F2}purkFS0XJ@=:eX_NU"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="Wn]x;o7No8=RA=|nbMtW"><field name="VAR" id="rd2K$gWu?7yI2(J3s^At">Landing craft</field><value name="VALUE"><shadow type="math_number" id="w![[R]b+t*QI(t|*O:t0"><field name="NUM">0</field></shadow><block type="spritescreate" id="ZEC+_587*SSn,z~!|BI*"><value name="img"><shadow type="screen_image_picker" id="_`fODMRByMIc}7VJup:w"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . c . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="r=Rg.5hXG9aA|UWX|2wt"><field name="MEMBER">Friendly</field></shadow></value></block></value><next><block type="grid_moveWithButtons" id="AXlXuMCwT{SiWNuP;Q4B"><value name="sprite"><block type="variables_get" id="^w(~Mf{[5R68`b:R.z5M"><field name="VAR" id="2sGpB;B.h3O+7*6I8Hhm">mySprite</field></block></value><next><block type="set_current_tilemap" id="}lr!!Uz_b,,WxyecvFfE"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="iBZWmN%dzX0zodn6g_))"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow></value></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="MmXSHZ:dT`E4)X+kUGXL" x="597" y="-17"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetpos" id="SWEX0y=HasBNkw?4F_t8"><value name="sprite"><block type="variables_get" id="dMD1|@D_2yK;TWDY{D8D"><field name="VAR" id="2sGpB;B.h3O+7*6I8Hhm">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id=",fjQm:I3D;D;hFb*0s|l"><field name="index">0</field></shadow></value><value name="y"><shadow type="positionPicker" id=";}O8|3[l8#Ot#|Jm_i:b"><field name="index">0</field></shadow></value></block></statement></block></xml>
